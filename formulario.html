@@ -4,28 +4,55 @@
 <head>
     <title>Formulario</title>
     <meta charset="utf-8" />
+    <style>
+        html {
+            height: 100%;
+
+        }
+
+        #container {
+            display: grid;
+            grid-template-rows: 70px px 2fr;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        .label {
+            width: 200px;
+            padding-right: 24px;
+        }
+
+        .input {
+            max-width: 200px;
+            border: 1px solid #45a049;
+            border-radius: 4px;
+            margin-bottom: 2px;
+            font-family: Helvetica;
+            font-size: 12px;
+            font-weight: lighter;
+        }
+    </style>
 </head>
 
 <body>
-    <form action="http://remote.danielcastelao.org/exdaw" method="GET" enctype="text/plain">
-        <label for="fname">Nombre:</label>
-        <input
-            style="border: 1px solid #45a049; border-radius: 4px; padding: 10x; margin-bottom: 2px; font-family: Helvetica; font-size:12px; font-weight: lighter"
-            type="text" name="fname" size="30" maxlength="35"><br>
-        <label for="lname">Apellidos:</label>
-        <input
-            style="border: 1px solid #45a049; border-radius: 4px; padding: 10x; margin-bottom: 2px; font-family: Helvetica; font-size:12px; font-weight: lighter"
-            type="text" name="lname" size="45" maxlength="50"><br>
-        <label for="movil">Movil:</label>
-        <input
-            style="border: 1px solid #45a049; border-radius: 4px; padding: 10x; margin-bottom: 2px; font-family: Helvetica; font-size:12px; font-weight: lighter"
-            type="tel" name="tlf" size="9" maxlength="9"><br>
-        <label for="contraseña">Contraseña:</label>
+    <div id="container">
+        <h1>Formulario</h1>
+        <form action="http://remote.danielcastelao.org/exdaw" method="GET" enctype="text/plain">
+            <label class="label" for="fname">Nombre:</label>
+            <input class="input" type="text" name="fname" size="30" maxlength="35"><br>
+            <label class="label" for="lname">Apellidos:</label>
+            <input class="input" type="text" name="lname" size="45" maxlength="50"><br>
+            <label class="label" for="movil">Movil:</label>
+            <input class="input" type="tel" name="tlf" size="9" maxlength="9"><br>
+            <label class="label" for="contraseña">Contraseña:</label>
 
-        <input
-            style="border: 1px solid #45a049; border-radius: 4px; padding: 10x; margin-bottom: 2px; font-family: Helvetica; font-size:12px; font-weight: lighter"
-            type="password" name="tlf" size="6" maxlength="6"><br>
-    </form>
+            <input class="input" type="password" name="tlf" size="6" maxlength="6"><br>
+        </form>
+    </div>
 </body>
 
 </html>
