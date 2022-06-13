@@ -13,6 +13,8 @@
         #container {
             display: grid;
             grid-template-rows: 70px px 2fr;
+            margin-left: 100px;
+            position: relative
         }
 
         form {
@@ -40,7 +42,12 @@
 
 <body>
     <div id="container">
-        <h1>Formulario</h1>
+        <h1>Bienvenido/a</h1>
+        <svg width="auto" height="100"><text x="0" y="70" style="font:bold 4.2em arial;fill:black;"
+                viewBox="0 0 800 800">FORMULARIO
+                <animate attributeType="XML" attributeName="x" from="-2030" to="3000" dur="10s" begin="0s"
+                    repeatCount="indefinite" />
+            </text></svg>
         <form action="http://remote.danielcastelao.org/exdaw" method="GET" enctype="text/plain">
             <label class="label" for="fname">Nombre:</label>
             <input class="input" type="text" name="fname" size="30" maxlength="35"><br>
@@ -49,9 +56,9 @@
             <label class="label" for="movil">Movil:</label>
             <input class="input" type="tel" name="tlf" size="9" maxlength="9"><br>
             <label class="label" for="contraseña">Contraseña:</label>
-
             <input class="input" type="password" name="tlf" size="6" maxlength="6"><br>
         </form>
+
     </div>
 </body>
 
