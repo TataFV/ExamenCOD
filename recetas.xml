@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recetas>
+    <receta>
+        <tipo>Ensalada</tipo>
+        <dificultad>Fácil</dificultad>
+        <nombre>Ensalada de pasta</nombre>
+        <ingredientes>
+            <ingrediente>Pasta</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Maiz</ingrediente>
+            <ingrediente>Atún</ingrediente>
+        </ingredientes>
+        <calorias></calorias>
+        <pasos>
+            <paso>Cocer pasta</paso>
+            <paso>Cortar tomate</paso>
+            <paso>Juntar en un bol todos los ingredientes</paso>
+        </pasos>
+        <tiempo>20 min</tiempo>
+    </receta>
+     <receta>
+        <tipo>Hamburgesa</tipo>
+        <dificultad>Fácil</dificultad>
+        <nombre>Hamburgesa americana</nombre>
+        <ingredientes>
+            <ingrediente>Carne de ternera</ingrediente>
+            <ingrediente>Lechuga</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Queso Cheddar</ingrediente>
+            <ingrediente>Pepinillo</ingrediente>
+            <ingrediente>Pan de hamburguesa</ingrediente>
+        </ingredientes>
+        <calorias>350 cal</calorias>
+        <pasos>
+            <paso>Freir carne</paso>
+            <paso>Colocar el queso en la carne</paso>
+            <paso>Colocar ingredientes dentro del pan</paso>
+        </pasos>
+        <tiempo>15 min</tiempo>
+    </receta>
+</recetas>
+
+
