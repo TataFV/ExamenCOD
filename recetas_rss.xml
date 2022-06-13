@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title> Recetas de cocina</title>
+        <link></link>
+        <description>Recetas de cocina semanales</description>
+        <item>
+            <title>Ensalada de pasta</title>
+            <link></link>
+            <pubDate>Wensd, 30 May 2022 00:00:00 GMT</pubDate>
+            <description> 
+            &lt;p&gt; &lt;img src="https://es.wikipedia.org/wiki/Ensalada_de_pasta#/media/Archivo:T%C4%9Bstovinov%C3%BD_sal%C3%A1t_s_ku%C5%99ec%C3%ADm_masem.jpg" width="400px" float="left" alt=&quot;Ensalada de pasta&quot;&gt; &lt;/p&gt; &lt;br /&gt; 
+            &lt;strong&gt;Ensalada de pasta&lt;/strong&gt;
+            &lt;p&gt; &lt;/p&gt;
+            &lt;br&gt; 
+            </description>
+        </item>
+        <item>
+            <title>Hamburguesa americana</title>
+            <link></link>
+            <pubDate>Tues, 6 Jun 2022 00:00:00 GMT</pubDate>
+            <description> 
+            &lt;p&gt; &lt;img src="https://es.wikipedia.org/wiki/Hamburguesa#/media/Archivo:NCI_Visuals_Food_Hamburger.jpg" width="400px" alt=&quot;Hamburguesa&quot;&gt; &lt;/p&gt;
+            &lt;strong&gt;Hamburguesa americana&lt;/strong&gt;
+            &lt;p&gt;Se frie la carne y se pone el queso para funir. Se cortan el tomate y el pepinillo.Se mete en el pan de hamburguesa.&lt;/p&gt;
+            </description>
+        </item>
+    </channel>
+</rss>
